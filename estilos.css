@@ -1,0 +1,138 @@
+* {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+
+
+      }
+      header {
+        flex: 1;
+        background-color: #333333;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+      }
+      main {
+        flex: 5;
+        display: flex;
+        margin: 1rem;;
+        width: 1200px;
+        margin-left: 500px;
+      }
+      #main_1 {
+        flex: 2;
+      }
+      #main_2 {
+
+        flex: 1;
+      }
+
+      #user_card {
+        height: 30rem;
+        box-shadow: 0rem 0.2rem 0.2rem #8888;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      #user_card_1 {
+        background: #800080;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffc0cb, #bd1dbd);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffc0cb, #ca3fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        flex: 1;
+        position: relative;
+
+
+      }
+      #user_card_2 {
+        flex: 3;
+        padding-top: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgb(255, 255, 255);
+
+
+      }
+      #user_card_1 > img {
+        width: 10rem;
+        border-radius: 50%;
+        border: 0.2rem solid white;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        border: 3px solid black ;
+        margin-bottom: 20px;
+      }
+      #editar_perfil {
+        height: 2rem;
+        border-radius: 0.2rem;
+        border: 2px solid rgb(0, 0, 0);
+        width: 100px;
+        background: #800080;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffc0cb, #bd1dbd);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffc0cb, #ca3fca); 
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      #editar_perfil:hover {
+
+        transform: scale(1.05,1.05);
+        border-radius: 0.2rem;
+        border: 2px solid rgb(0, 0, 0);
+        background: #74ebd5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        
+
+      }
+
+
+      .navbar{
+        color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    .logo{
+        flex: 1;
+    }
+    .nav-links{
+        flex: 1;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    #user_card_2 p {
+
+        text-align: justify;
+
+    }
+
+    h1{
+
+        margin-top: 40px;
+        font-family: "Rancho", cursive;
+        font-weight: 400;
+        font-style: normal;
+
+
+    }
+
